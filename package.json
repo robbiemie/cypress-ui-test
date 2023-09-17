@@ -1,0 +1,24 @@
+{
+  "name": "cypress-ui-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "co": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiemie/cypress-ui-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbiemie/cypress-ui-test/issues"
+  },
+  "homepage": "https://github.com/robbiemie/cypress-ui-test#readme",
+  "dependencies": {
+    "cypress": "^13.2.0"
+  },
+  "devDependencies": {}
+}
