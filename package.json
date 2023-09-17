@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "co": "cypress open",
+    "cdp": "node cdp/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/robbiemie/cypress-ui-test#readme",
   "dependencies": {
+    "chrome-remote-interface": "^0.33.0",
     "cypress": "^13.2.0"
   },
   "devDependencies": {}
