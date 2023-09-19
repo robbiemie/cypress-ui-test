@@ -19,9 +19,9 @@ describe('hoyolab spec', () => {
     // 获取dom
     // 登录
     getIframeBody().find('.hyv-web-login-dialog .el-input__inner[type="text"]', {timeout: 10000})
-      .type("xxx");
+      .type("genshintest04");
     getIframeBody().find('.hyv-web-login-dialog .el-input__inner[type="password"]', {timeout: 10000})
-      .type("xxx").should('have.value', "xxx");
+      .type("genshintest04").should('have.value', "genshintest04");
     getIframeBody().find('.hyv-web-login-dialog .cmn-button__block', {timeout: 10000}).click();
     // 关闭弹窗
     cy.get('.mhy-dialog__body .mhy-interest-selector__header .mhy-button__button', {timeout: 10000}).click()
